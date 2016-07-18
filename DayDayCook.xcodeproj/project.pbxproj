@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEF65FCF1D3CDD9C00E4E12E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF65FCE1D3CDD9C00E4E12E /* main.m */; };
+		DEF65FD21D3CDD9C00E4E12E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF65FD11D3CDD9C00E4E12E /* AppDelegate.m */; };
+		DEF65FD51D3CDD9C00E4E12E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF65FD41D3CDD9C00E4E12E /* ViewController.m */; };
+		DEF65FD81D3CDD9C00E4E12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF65FD61D3CDD9C00E4E12E /* Main.storyboard */; };
+		DEF65FDB1D3CDD9C00E4E12E /* DayDayCook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEF65FD91D3CDD9C00E4E12E /* DayDayCook.xcdatamodeld */; };
+		DEF65FDD1D3CDD9C00E4E12E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF65FDC1D3CDD9C00E4E12E /* Assets.xcassets */; };
+		DEF65FE01D3CDD9C00E4E12E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF65FDE1D3CDD9C00E4E12E /* LaunchScreen.storyboard */; };
+		DEF65FEB1D3CDD9C00E4E12E /* DayDayCookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF65FEA1D3CDD9C00E4E12E /* DayDayCookTests.m */; };
+		DEF65FF61D3CDD9C00E4E12E /* DayDayCookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF65FF51D3CDD9C00E4E12E /* DayDayCookUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEF65FE71D3CDD9C00E4E12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEF65FC21D3CDD9C00E4E12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF65FC91D3CDD9C00E4E12E;
+			remoteInfo = DayDayCook;
+		};
+		DEF65FF21D3CDD9C00E4E12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEF65FC21D3CDD9C00E4E12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF65FC91D3CDD9C00E4E12E;
+			remoteInfo = DayDayCook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEF65FCA1D3CDD9C00E4E12E /* DayDayCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayDayCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF65FCE1D3CDD9C00E4E12E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEF65FD01D3CDD9C00E4E12E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEF65FD11D3CDD9C00E4E12E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEF65FD31D3CDD9C00E4E12E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEF65FD41D3CDD9C00E4E12E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEF65FD71D3CDD9C00E4E12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEF65FDA1D3CDD9C00E4E12E /* DayDayCook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DayDayCook.xcdatamodel; sourceTree = "<group>"; };
+		DEF65FDC1D3CDD9C00E4E12E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEF65FDF1D3CDD9C00E4E12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEF65FE11D3CDD9C00E4E12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF65FE61D3CDD9C00E4E12E /* DayDayCookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayDayCookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF65FEA1D3CDD9C00E4E12E /* DayDayCookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayDayCookTests.m; sourceTree = "<group>"; };
+		DEF65FEC1D3CDD9C00E4E12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF65FF11D3CDD9C00E4E12E /* DayDayCookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayDayCookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF65FF51D3CDD9C00E4E12E /* DayDayCookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayDayCookUITests.m; sourceTree = "<group>"; };
+		DEF65FF71D3CDD9C00E4E12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEF65FC71D3CDD9C00E4E12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF65FE31D3CDD9C00E4E12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF65FEE1D3CDD9C00E4E12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEF65FC11D3CDD9C00E4E12E = {
+			isa = PBXGroup;
+			children = (
+				DEF65FCC1D3CDD9C00E4E12E /* DayDayCook */,
+				DEF65FE91D3CDD9C00E4E12E /* DayDayCookTests */,
+				DEF65FF41D3CDD9C00E4E12E /* DayDayCookUITests */,
+				DEF65FCB1D3CDD9C00E4E12E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF65FCB1D3CDD9C00E4E12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEF65FCA1D3CDD9C00E4E12E /* DayDayCook.app */,
+				DEF65FE61D3CDD9C00E4E12E /* DayDayCookTests.xctest */,
+				DEF65FF11D3CDD9C00E4E12E /* DayDayCookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEF65FCC1D3CDD9C00E4E12E /* DayDayCook */ = {
+			isa = PBXGroup;
+			children = (
+				DEF65FD01D3CDD9C00E4E12E /* AppDelegate.h */,
+				DEF65FD11D3CDD9C00E4E12E /* AppDelegate.m */,
+				DEF65FD31D3CDD9C00E4E12E /* ViewController.h */,
+				DEF65FD41D3CDD9C00E4E12E /* ViewController.m */,
+				DEF65FD61D3CDD9C00E4E12E /* Main.storyboard */,
+				DEF65FDC1D3CDD9C00E4E12E /* Assets.xcassets */,
+				DEF65FDE1D3CDD9C00E4E12E /* LaunchScreen.storyboard */,
+				DEF65FE11D3CDD9C00E4E12E /* Info.plist */,
+				DEF65FD91D3CDD9C00E4E12E /* DayDayCook.xcdatamodeld */,
+				DEF65FCD1D3CDD9C00E4E12E /* Supporting Files */,
+			);
+			path = DayDayCook;
+			sourceTree = "<group>";
+		};
+		DEF65FCD1D3CDD9C00E4E12E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEF65FCE1D3CDD9C00E4E12E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEF65FE91D3CDD9C00E4E12E /* DayDayCookTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEF65FEA1D3CDD9C00E4E12E /* DayDayCookTests.m */,
+				DEF65FEC1D3CDD9C00E4E12E /* Info.plist */,
+			);
+			path = DayDayCookTests;
+			sourceTree = "<group>";
+		};
+		DEF65FF41D3CDD9C00E4E12E /* DayDayCookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEF65FF51D3CDD9C00E4E12E /* DayDayCookUITests.m */,
+				DEF65FF71D3CDD9C00E4E12E /* Info.plist */,
+			);
+			path = DayDayCookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEF65FC91D3CDD9C00E4E12E /* DayDayCook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF65FFA1D3CDD9C00E4E12E /* Build configuration list for PBXNativeTarget "DayDayCook" */;
+			buildPhases = (
+				DEF65FC61D3CDD9C00E4E12E /* Sources */,
+				DEF65FC71D3CDD9C00E4E12E /* Frameworks */,
+				DEF65FC81D3CDD9C00E4E12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayDayCook;
+			productName = DayDayCook;
+			productReference = DEF65FCA1D3CDD9C00E4E12E /* DayDayCook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEF65FE51D3CDD9C00E4E12E /* DayDayCookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF65FFD1D3CDD9C00E4E12E /* Build configuration list for PBXNativeTarget "DayDayCookTests" */;
+			buildPhases = (
+				DEF65FE21D3CDD9C00E4E12E /* Sources */,
+				DEF65FE31D3CDD9C00E4E12E /* Frameworks */,
+				DEF65FE41D3CDD9C00E4E12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF65FE81D3CDD9C00E4E12E /* PBXTargetDependency */,
+			);
+			name = DayDayCookTests;
+			productName = DayDayCookTests;
+			productReference = DEF65FE61D3CDD9C00E4E12E /* DayDayCookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEF65FF01D3CDD9C00E4E12E /* DayDayCookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF660001D3CDD9C00E4E12E /* Build configuration list for PBXNativeTarget "DayDayCookUITests" */;
+			buildPhases = (
+				DEF65FED1D3CDD9C00E4E12E /* Sources */,
+				DEF65FEE1D3CDD9C00E4E12E /* Frameworks */,
+				DEF65FEF1D3CDD9C00E4E12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF65FF31D3CDD9C00E4E12E /* PBXTargetDependency */,
+			);
+			name = DayDayCookUITests;
+			productName = DayDayCookUITests;
+			productReference = DEF65FF11D3CDD9C00E4E12E /* DayDayCookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEF65FC21D3CDD9C00E4E12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liangyi;
+				TargetAttributes = {
+					DEF65FC91D3CDD9C00E4E12E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LL76S79C6K;
+					};
+					DEF65FE51D3CDD9C00E4E12E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LL76S79C6K;
+						TestTargetID = DEF65FC91D3CDD9C00E4E12E;
+					};
+					DEF65FF01D3CDD9C00E4E12E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LL76S79C6K;
+						TestTargetID = DEF65FC91D3CDD9C00E4E12E;
+					};
+				};
+			};
+			buildConfigurationList = DEF65FC51D3CDD9C00E4E12E /* Build configuration list for PBXProject "DayDayCook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEF65FC11D3CDD9C00E4E12E;
+			productRefGroup = DEF65FCB1D3CDD9C00E4E12E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF65FC91D3CDD9C00E4E12E /* DayDayCook */,
+				DEF65FE51D3CDD9C00E4E12E /* DayDayCookTests */,
+				DEF65FF01D3CDD9C00E4E12E /* DayDayCookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEF65FC81D3CDD9C00E4E12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF65FE01D3CDD9C00E4E12E /* LaunchScreen.storyboard in Resources */,
+				DEF65FDD1D3CDD9C00E4E12E /* Assets.xcassets in Resources */,
+				DEF65FD81D3CDD9C00E4E12E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF65FE41D3CDD9C00E4E12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF65FEF1D3CDD9C00E4E12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEF65FC61D3CDD9C00E4E12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF65FD51D3CDD9C00E4E12E /* ViewController.m in Sources */,
+				DEF65FD21D3CDD9C00E4E12E /* AppDelegate.m in Sources */,
+				DEF65FCF1D3CDD9C00E4E12E /* main.m in Sources */,
+				DEF65FDB1D3CDD9C00E4E12E /* DayDayCook.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF65FE21D3CDD9C00E4E12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF65FEB1D3CDD9C00E4E12E /* DayDayCookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF65FED1D3CDD9C00E4E12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF65FF61D3CDD9C00E4E12E /* DayDayCookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEF65FE81D3CDD9C00E4E12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEF65FC91D3CDD9C00E4E12E /* DayDayCook */;
+			targetProxy = DEF65FE71D3CDD9C00E4E12E /* PBXContainerItemProxy */;
+		};
+		DEF65FF31D3CDD9C00E4E12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEF65FC91D3CDD9C00E4E12E /* DayDayCook */;
+			targetProxy = DEF65FF21D3CDD9C00E4E12E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEF65FD61D3CDD9C00E4E12E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF65FD71D3CDD9C00E4E12E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEF65FDE1D3CDD9C00E4E12E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF65FDF1D3CDD9C00E4E12E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEF65FF81D3CDD9C00E4E12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEF65FF91D3CDD9C00E4E12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEF65FFB1D3CDD9C00E4E12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DayDayCook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laingyi.DayDayCook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEF65FFC1D3CDD9C00E4E12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DayDayCook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laingyi.DayDayCook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEF65FFE1D3CDD9C00E4E12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DayDayCookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laingyi.DayDayCookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayDayCook.app/DayDayCook";
+			};
+			name = Debug;
+		};
+		DEF65FFF1D3CDD9C00E4E12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DayDayCookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laingyi.DayDayCookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayDayCook.app/DayDayCook";
+			};
+			name = Release;
+		};
+		DEF660011D3CDD9C00E4E12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DayDayCookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laingyi.DayDayCookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DayDayCook;
+			};
+			name = Debug;
+		};
+		DEF660021D3CDD9C00E4E12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DayDayCookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laingyi.DayDayCookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DayDayCook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEF65FC51D3CDD9C00E4E12E /* Build configuration list for PBXProject "DayDayCook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF65FF81D3CDD9C00E4E12E /* Debug */,
+				DEF65FF91D3CDD9C00E4E12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF65FFA1D3CDD9C00E4E12E /* Build configuration list for PBXNativeTarget "DayDayCook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF65FFB1D3CDD9C00E4E12E /* Debug */,
+				DEF65FFC1D3CDD9C00E4E12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEF65FFD1D3CDD9C00E4E12E /* Build configuration list for PBXNativeTarget "DayDayCookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF65FFE1D3CDD9C00E4E12E /* Debug */,
+				DEF65FFF1D3CDD9C00E4E12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEF660001D3CDD9C00E4E12E /* Build configuration list for PBXNativeTarget "DayDayCookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF660011D3CDD9C00E4E12E /* Debug */,
+				DEF660021D3CDD9C00E4E12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEF65FD91D3CDD9C00E4E12E /* DayDayCook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEF65FDA1D3CDD9C00E4E12E /* DayDayCook.xcdatamodel */,
+			);
+			currentVersion = DEF65FDA1D3CDD9C00E4E12E /* DayDayCook.xcdatamodel */;
+			path = DayDayCook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DEF65FC21D3CDD9C00E4E12E /* Project object */;
+}
